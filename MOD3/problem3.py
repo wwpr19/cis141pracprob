@@ -2,3 +2,4 @@
 text = input("please write a sentence")
 word = input("please write a word")
 match = word in text
+print(match)
