@@ -2,8 +2,8 @@
 #threshold. 
 #If a sensor threshold is below the number 8, print "Headlights On"; otherwise, print "Headlights Off".
 
-day = 3
-if day <= 4:
+day = 4
+if day < 8:
    print("Headlights On")
 else:
     print("Headlights Off") 
